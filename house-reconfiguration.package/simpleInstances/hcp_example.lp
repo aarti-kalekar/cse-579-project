@@ -16,6 +16,7 @@ legacyConfig(personTOthing(2,8)).
 cabinetDomainNew(9..14).
 roomDomainNew(15..20).
 
+
 cabinetHighCost(1).
 cabinetSmallCost(1).
 roomCost(1).
