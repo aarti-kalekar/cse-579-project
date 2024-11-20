@@ -1,3 +1,6 @@
+%%%%%%%%%%%%%%%%%%%
+% File: solution.lp
+%%%%%%%%%%%%%%%%%%%
 % Include all cabinets in the cabinet domain, whether new or legacy
 cabinetDomain(C) :- cabinetDomainNew(C).
 cabinetDomain(C) :- legacyConfig(cabinet(C)).
